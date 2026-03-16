@@ -12,7 +12,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/workingtech/animal")
 public class AnimalController {
-    @Value("${course.name")
+    @Value("${course.name}")
     private String courseName;
     @Value("${project.developer.fullname}")
     private String developerName;
