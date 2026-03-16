@@ -4,7 +4,7 @@ public class Animal {
     private int id;
     private String name;
 
-    public Animal (Integer expectedId, String expectedName){}
+    public Animal (Integer Id, String Name){}
 
     public Animal(int id ,String name){
         this.id = id;
